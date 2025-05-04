@@ -45,14 +45,14 @@ const About = () => {
                 <h3 className="text-xl font-semibold mb-4 text-center text-gray-900 dark:text-white">Curriculum Vitae</h3>
                 <div className="w-full h-[70vh]">
                   <iframe
-                    src="/mycv.pdf"
+                    src="/JSRK-portfolio/mycv.pdf"
                     title="CV Preview"
                     className="w-full h-full border rounded"
                   />
                 </div>
                 <div className="flex justify-center mt-4">
                   <a
-                    href="/mycv.pdf"
+                    href="/JSRK-portfolio/mycv.pdf"
                     download
                     className="inline-flex items-center bg-indigo-600 text-white px-4 py-2 rounded-lg shadow hover:bg-indigo-700 transition-colors duration-200"
                   >

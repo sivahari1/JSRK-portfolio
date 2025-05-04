@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-3 text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-            <img src="/JSRK-portfolio/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="w-10 h-10 rounded-full object-cover border-2 border-indigo-200 dark:border-indigo-600" />
+            <img src="myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="w-10 h-10 rounded-full object-cover border-2 border-indigo-200 dark:border-indigo-600" />
             <span>Dr. J. Siva Ramakrishna</span>
           </Link>
           

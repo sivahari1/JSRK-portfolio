@@ -23,7 +23,7 @@ const About = () => {
     <div className="pt-16">
       <section className="py-20 bg-gradient-to-b from-white to-indigo-50 dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-2 sm:px-4">
-          <img src="/JSRK-portfolio/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
+          <img src="myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
           <div className="flex flex-col items-center mb-8">
             <button
               onClick={() => setShowCV(true)}
@@ -45,14 +45,14 @@ const About = () => {
                 <h3 className="text-xl font-semibold mb-4 text-center text-gray-900 dark:text-white">Curriculum Vitae</h3>
                 <div className="w-full h-[70vh]">
                   <iframe
-                    src="/JSRK-portfolio/mycv.pdf"
+                    src="mycv.pdf"
                     title="CV Preview"
                     className="w-full h-full border rounded"
                   />
                 </div>
                 <div className="flex justify-center mt-4">
                   <a
-                    href="/JSRK-portfolio/mycv.pdf"
+                    href="mycv.pdf"
                     download
                     className="inline-flex items-center bg-indigo-600 text-white px-4 py-2 rounded-lg shadow hover:bg-indigo-700 transition-colors duration-200"
                   >

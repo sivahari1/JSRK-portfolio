@@ -26,7 +26,7 @@ const Contact = () => {
     <div className="pt-16">
       <section className="py-20 bg-gradient-to-b from-white to-indigo-50 dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-2 sm:px-4">
-          <img src="/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-6 w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
+          <img src="@public/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-6 w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
           <h1 className="text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">Get in Touch</h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-2xl mx-auto">
             Interested in collaboration, research opportunities, or academic discussions?

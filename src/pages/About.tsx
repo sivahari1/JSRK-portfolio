@@ -23,7 +23,7 @@ const About = () => {
     <div className="pt-16">
       <section className="py-20 bg-gradient-to-b from-white to-indigo-50 dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-2 sm:px-4">
-          <img src="./myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
+          <img src="/JSRK-portfolio/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
           <div className="flex flex-col items-center mb-8">
             <button
               onClick={() => setShowCV(true)}

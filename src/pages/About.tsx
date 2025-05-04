@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { CodeBracketIcon, CommandLineIcon, ServerIcon } from '@heroicons/react/24/outline';
 
 const About = () => {

@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import Publications from './pages/Publications';
 import Certifications from './pages/Certifications';
 import Contact from './pages/Contact';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ThemeProvider } from './context/ThemeContext';
 
 function App() {

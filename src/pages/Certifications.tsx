@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { AcademicCapIcon, BookOpenIcon, TrophyIcon, DocumentTextIcon, CodeBracketIcon, CloudIcon, EyeIcon, ChartBarIcon } from '@heroicons/react/24/outline';
+import { AcademicCapIcon, DocumentTextIcon, CodeBracketIcon, CloudIcon, EyeIcon, ChartBarIcon } from '@heroicons/react/24/outline';
 import { CpuChipIcon, BeakerIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
 
@@ -109,14 +109,28 @@ const Certifications = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <motion.h1 
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-4xl font-bold mb-8 text-center"
-      >
-        Certifications
-      </motion.h1>
+      <div className="flex flex-col items-center mb-12">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="relative w-32 h-32 mb-6"
+        >
+          <img
+            src="/myphoto.jpg"
+            alt="Profile"
+            className="w-full h-full rounded-full object-cover border-4 border-indigo-500 dark:border-indigo-400"
+          />
+        </motion.div>
+        <motion.h1 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-bold mb-8 text-center"
+        >
+          Certifications
+        </motion.h1>
+      </div>
       
       <div className="space-y-8">
         {certifications.map((cert, index) => (

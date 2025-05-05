@@ -12,7 +12,7 @@ const Home = () => {
           transition={{ duration: 1 }}
           className="text-center w-full max-w-2xl"
         >
-          <img src="/JSRK-portfolio/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-6 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
+          <img src="myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-6 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

@@ -228,7 +228,7 @@ const Publications = () => {
             className="relative w-32 h-32 mb-6"
           >
             <img
-              src="/myphoto.jpg"
+              src="/JSRK-portfolio/myphoto.jpg"
               alt="Profile"
               className="w-full h-full rounded-full object-cover border-4 border-indigo-500 dark:border-indigo-400"
             />

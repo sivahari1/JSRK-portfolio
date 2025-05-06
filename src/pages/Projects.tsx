@@ -11,21 +11,21 @@ const Projects = () => {
           className="relative w-32 h-32 mb-6"
         >
           <img
-            src="myphoto.jpg"
+            src="/JSRK-portfolio/myphoto.jpg"
             alt="Profile"
-            className="w-full h-full rounded-full object-cover border-4 border-indigo-500 dark:border-indigo-400"
+            className="w-full h-full rounded-full object-cover border-4 border-purple-400 dark:border-purple-300"
           />
         </motion.div>
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold mb-8 text-center"
+          className="text-4xl font-bold mb-8 text-center text-purple-700 dark:text-purple-300"
         >
           Projects
         </motion.h1>
       </div>
-      <section className="py-20 bg-gradient-to-b from-white to-indigo-50 dark:from-gray-900 dark:to-gray-800">
+      <section className="py-20 bg-gradient-to-br from-purple-100 via-violet-200 to-indigo-100 dark:from-purple-900 dark:via-violet-900 dark:to-indigo-900">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -5,14 +5,14 @@ const Home = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-indigo-50 to-white dark:from-gray-900 dark:to-gray-800 px-2 sm:px-4">
+      <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 dark:from-blue-900 dark:via-blue-800 dark:to-blue-700 px-2 sm:px-4">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           className="text-center w-full max-w-2xl"
         >
-          <img src="myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-6 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
+          <img src="/JSRK-portfolio/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-6 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ const Home = () => {
           >
             <a
               href="#about"
-              className="w-full sm:w-auto bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors duration-200"
+              className="w-full sm:w-auto bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-lg"
             >
               Learn More
             </a>

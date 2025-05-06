@@ -8,7 +8,10 @@ export default defineConfig({
   base: '/JSRK-portfolio/',
   server: {
     port: 3000,
-    open: true
+    open: '/JSRK-portfolio/',
+    hmr: {
+      overlay: true
+    }
   },
   build: {
     outDir: 'dist',
@@ -19,7 +22,13 @@ export default defineConfig({
         main: path.resolve(__dirname, 'index.html'),
       },
       output: {
-        manualChunks: undefined
+        manualChunks: undefined,
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name?.endsWith('.jpg') || assetInfo.name?.endsWith('.png')) {
+            return 'assets/images/[name]-[hash][extname]';
+          }
+          return 'assets/[name]-[hash][extname]';
+        }
       }
     },
   },
@@ -29,4 +38,7 @@ export default defineConfig({
       '@public': path.resolve(__dirname, './public'),
     },
   },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom', 'framer-motion']
+  }
 }) 

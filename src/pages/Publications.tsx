@@ -228,22 +228,22 @@ const Publications = () => {
             className="relative w-32 h-32 mb-6"
           >
             <img
-              src="myphoto.jpg"
+              src="/JSRK-portfolio/myphoto.jpg"
               alt="Profile"
-              className="w-full h-full rounded-full object-cover border-4 border-indigo-500 dark:border-indigo-400"
+              className="w-full h-full rounded-full object-cover border-4 border-green-400 dark:border-green-300"
             />
           </motion.div>
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-4xl font-bold mb-8 text-center"
+            className="text-4xl font-bold mb-8 text-center text-green-700 dark:text-green-300"
           >
             Publications
           </motion.h1>
         </div>
       </div>
-      <section className="py-20 bg-gradient-to-b from-white to-indigo-50 dark:from-gray-900 dark:to-gray-800">
+      <section className="py-20 bg-gradient-to-br from-green-100 via-emerald-100 to-lime-100 dark:from-green-900 dark:via-emerald-900 dark:to-lime-900">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

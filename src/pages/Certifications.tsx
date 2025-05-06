@@ -117,22 +117,22 @@ const Certifications = () => {
           className="relative w-32 h-32 mb-6"
         >
           <img
-            src="myphoto.jpg"
+            src="/JSRK-portfolio/myphoto.jpg"
             alt="Profile"
-            className="w-full h-full rounded-full object-cover border-4 border-indigo-500 dark:border-indigo-400"
+            className="w-full h-full rounded-full object-cover border-4 border-yellow-400 dark:border-yellow-300"
           />
         </motion.div>
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold mb-8 text-center"
+          className="text-4xl font-bold mb-8 text-center text-yellow-700 dark:text-yellow-300"
         >
           Certifications
         </motion.h1>
       </div>
       
-      <div className="space-y-8">
+      <div className="space-y-8 py-20 bg-gradient-to-br from-yellow-100 via-amber-100 to-orange-100 dark:from-yellow-900 dark:via-amber-900 dark:to-orange-900">
         {certifications.map((cert, index) => (
           <motion.div
             key={cert.id}

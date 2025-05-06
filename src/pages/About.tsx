@@ -21,13 +21,13 @@ const About = () => {
 
   return (
     <div className="pt-16">
-      <section className="py-20 bg-gradient-to-b from-white to-indigo-50 dark:from-gray-900 dark:to-gray-800">
+      <section className="py-20 bg-gradient-to-br from-teal-100 via-cyan-100 to-blue-100 dark:from-teal-900 dark:via-cyan-900 dark:to-blue-900">
         <div className="container mx-auto px-2 sm:px-4">
-          <img src="myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-200 dark:border-indigo-600 shadow-lg" />
+          <img src="/JSRK-portfolio/myphoto.jpg" alt="Dr. J. Siva Ramakrishna" className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-cyan-200 dark:border-cyan-600 shadow-lg" />
           <div className="flex flex-col items-center mb-8">
             <button
               onClick={() => setShowCV(true)}
-              className="bg-indigo-600 text-white px-6 py-2 rounded-lg shadow hover:bg-indigo-700 transition-colors duration-200 mb-2"
+              className="bg-teal-600 text-white px-6 py-2 rounded-lg shadow hover:bg-teal-700 transition-colors duration-200 mb-2"
             >
               CV
             </button>

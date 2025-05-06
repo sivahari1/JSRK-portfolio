@@ -88,7 +88,7 @@ const Home = () => {
             >
               <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Teaching</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Delivering high-quality education in aeronautical engineering with a focus on practical applications and industry relevance.
+                Delivering high-quality education in Artificial Intelligence and Machine Learning with a focus on practical applications and industry relevance.
               </p>
             </motion.div>
             
@@ -101,7 +101,7 @@ const Home = () => {
             >
               <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Training</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Conducting specialized training programs to enhance technical skills and prepare students for industry challenges.
+                Conducting specialized training programs on python, java programming, graph theory, signal and image processing, machine learning and deep learning to enhance technical skills and prepare students for industry challenges.
               </p>
             </motion.div>
             
@@ -114,7 +114,7 @@ const Home = () => {
             >
               <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Research</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Engaging in cutting-edge research in aeronautical engineering, contributing to advancements in the field.
+                Engaging in cutting-edge research in Bio-medical signal and image processing, Functional MRI Data Analysis, and Language models, contributing to advancements in the field.
               </p>
             </motion.div>
           </div>

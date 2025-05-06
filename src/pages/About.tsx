@@ -4,10 +4,12 @@ import { CodeBracketIcon, CommandLineIcon, ServerIcon } from '@heroicons/react/2
 const About = () => {
   const skills = {
     teaching: [
-      { name: 'Aeronautical Engineering', level: 'Expert' },
-      { name: 'Aircraft Systems', level: 'Expert' },
-      { name: 'Aerodynamics', level: 'Advanced' },
-      { name: 'Flight Mechanics', level: 'Advanced' },
+      { name: 'Python programming', level: 'Expert' },
+      { name: 'Graph theory', level: 'Expert' },
+      { name: 'Signal and Image Processing', level: 'Advanced' },
+      { name: 'Machine Learning', level: 'Advanced' },
+      { name: 'Deep Learning', level: 'Advanced' },
+      { name: 'Natural Language Processing', level: 'Advanced' },
     ],
     research: [
       { name: 'Functional MRI Data Analysis', level: 'Expert' },
@@ -72,14 +74,14 @@ const About = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               I am Dr. J. Siva Ramakrishna, an Associate Professor at the Institute of Aeronautical Engineering, Hyderabad.
               My research focuses on cutting-edge technologies including Functional MRI Data Analysis, Machine Learning,
-              Deep Learning, and Natural Language Processing. I combine my expertise in aeronautical engineering with
-              advanced computational techniques to drive innovation in both aerospace and medical imaging domains.
+              Deep Learning, and Natural Language Processing. I combine my expertise in signal and image processing with
+              advanced computational techniques to drive innovation in both Machine intelligence and medical imaging domains.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              With extensive experience in both theoretical and practical aspects of aeronautical engineering,
-              I strive to bridge the gap between traditional aerospace knowledge and modern computational methods.
+              With extensive experience in both theoretical and practical aspects of machine intelligence aeronautical engineering,
+              I strive to bridge the gap between traditional knowledge and modern computational methods.
               My research interests span across multiple disciplines, focusing on applying machine learning and
-              deep learning techniques to solve complex problems in aerospace engineering and medical imaging.
+              deep learning techniques to solve complex problems in engineering domains and medical imaging.
             </p>
           </div>
 

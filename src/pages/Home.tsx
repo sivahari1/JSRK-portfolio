@@ -28,17 +28,8 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-8"
           >
-            Associate Professor
+            Web & Mobile Applications Designer | AI Practitioner
           </motion.h2>
-          
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8"
-          >
-            Institute of Aeronautical Engineering, Hyderabad
-          </motion.p>
           
           <motion.div 
             initial={{ opacity: 0, y: 20 }}

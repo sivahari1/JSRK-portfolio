@@ -5,6 +5,24 @@ import { useState } from 'react';
 
 const certifications = [
   {
+    id: 11,
+    title: "Fundamentals of Object-Oriented Programming",
+    issuer: "IIT Roorkee",
+    date: "May 2025",
+    description: "Advanced knowledge in Object-Oriented Programming concepts, design patterns, and software development methodologies.",
+    icon: <CpuChipIcon className="h-6 w-6" />,
+    pdfPath: "/certificates/OOP.pdf"
+  },
+  {
+    id: 12,
+    title: "Deep Learning for Natural Language Processing",
+    issuer: "IIT Kharagpur",
+    date: "May 2025",
+    description: "Comprehensive understanding of deep learning architectures, neural networks, and their applications for Natural Language Processing.",
+    icon: <CpuChipIcon className="h-6 w-6" />,
+    pdfPath: "/certificates/DeepLearning.pdf"
+  },
+  {
     id: 2,
     title: "Programming in Java",
     issuer: "IIT Kharagpur",
